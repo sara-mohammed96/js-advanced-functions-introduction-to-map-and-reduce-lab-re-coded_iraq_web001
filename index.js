@@ -40,7 +40,12 @@ function reduceToTotal(sourceArray, startingPoint){
 }
 
 function reduceToAllTrue(sourceArray){
-  
+  let truthyValue =true;
+  sourceArray.forEach(item =>{
+    if(!item)
+    return
+  })
+  return truthyValue;
 }
 
 
