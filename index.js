@@ -20,5 +20,7 @@ return newArray2
 }
 
 function mapToSquare(sourceArray){
-  
+  return sourceArray.forEach(item =>{
+    item
+  })
 }
