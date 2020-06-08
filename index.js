@@ -12,5 +12,7 @@ function mapToNoChange(sourceArray){
 }
 
 function mapToDouble(sourceArray){
-return  sourceArray.forEach(item *2)
+  let newArray2=[];
+ sourceArray.forEach(item *2)
+ newArray2.push()
 }
