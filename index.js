@@ -53,8 +53,11 @@ function reduceToAnyTrue(sourceArray){
   let truthyValue2=false;
   sourceArray.forEach(item =>{
     if(!item)
+    return truthyValue2
     
   })
+  
+  return truthyValue2=true;
 }
 
 
