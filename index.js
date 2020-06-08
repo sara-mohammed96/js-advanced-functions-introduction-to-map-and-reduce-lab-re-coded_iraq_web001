@@ -12,5 +12,5 @@ function mapToNoChange(sourceArray){
 }
 
 function mapToDouble(sourceArray){
-  
+return  sourceArray.forEach(item *2)
 }
