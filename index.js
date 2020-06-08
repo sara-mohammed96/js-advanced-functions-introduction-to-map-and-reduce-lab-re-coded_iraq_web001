@@ -49,6 +49,14 @@ function reduceToAllTrue(sourceArray){
   return truthyValue;
 }
 
+function reduceToAnyTrue(sourceArray){
+  let truthyValue2=false;
+  sourceArray.forEach(item =>{
+    if(!item)
+    
+  })
+}
+
 
 
 
