@@ -13,6 +13,8 @@ function mapToNoChange(sourceArray){
 
 function mapToDouble(sourceArray){
   let newArray2=[];
- sourceArray.forEach(item *2)
- newArray2.push()
+ sourceArray.forEach(item =>{
+ newArray2.push(item*2);
+})
+return newArray2
 }
