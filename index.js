@@ -54,11 +54,11 @@ function reduceToAnyTrue(sourceArray){
   sourceArray.forEach(item =>{
     if(item)
     truthyValue2=true;
-    return truthyValue2
+    return 
     
   })
   
-  return 
+  return truthyValue2
 }
 
 
