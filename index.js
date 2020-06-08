@@ -57,7 +57,7 @@ function reduceToAnyTrue(sourceArray){
     
   })
   
-  return truthyValue2=true;
+  return 
 }
 
 
