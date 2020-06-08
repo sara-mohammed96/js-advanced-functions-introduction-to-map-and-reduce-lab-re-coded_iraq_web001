@@ -18,3 +18,7 @@ function mapToDouble(sourceArray){
 })
 return newArray2
 }
+
+function mapToSquare(sourceArray){
+  
+}
