@@ -44,7 +44,7 @@ function reduceToAllTrue(sourceArray){
   sourceArray.forEach(item =>{
     if(!item)
     truthyValue=false;
-    return
+    return truthyValue;
   })
   return truthyValue;
 }
