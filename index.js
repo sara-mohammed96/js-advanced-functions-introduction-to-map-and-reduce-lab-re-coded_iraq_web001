@@ -43,6 +43,7 @@ function reduceToAllTrue(sourceArray){
   let truthyValue =true;
   sourceArray.forEach(item =>{
     if(!item)
+    truthyValue=false;
     return
   })
   return truthyValue;
